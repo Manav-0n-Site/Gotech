@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GOTECH</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+    <div class="logo" data-aos="fade-down" data-aos-duration="1500">GOTECH</div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#" data-aos="fade-down" data-aos-duration="1500">Hire</a>
+      <a href="#" data-aos="fade-down" data-aos-duration="2000">Apply</a>
+      <a href="#" data-aos="fade-down" data-aos-duration="2500">About us</a>
+      <a href="#" data-aos="fade-down" data-aos-duration="3000">Our Services</a>
+    </nav>
+
+    <div class="nav-buttons" id="navButtons">
+      <button class="sign-in" data-aos="fade-down" data-aos-duration="1500">Sign in</button>
+      <button class="sign-up" data-aos="fade-down" data-aos-duration="2000">Sign up</button>
+    </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-up-right" data-aos-duration="1500">
+        <h1>
+          <span>Turning blueprints</span>
+          <span>Into Landmarks</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate eveniet fugit quo ducimus voluptates expedita, similique vitae magnam. Deserunt!
+        </p>
+        <button class="btn">Getting Started</button>
+      </div>
+      <img src="https://cdn.pixabay.com/photo/2021/06/20/14/24/worker-6351121_640.png" alt="Construction Illustration" class="hero-image" data-aos="fade-down-left" data-aos-duration="1500">
+    </div>
+
+    <!-- Deeper Wave Shape -->
+    <div class="wave">
+      <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path class="shape-fill" d="M0,240 C240,120 480,360 720,240 C960,120 1200,360 1440,240 L1440,320 L0,320 Z"></path>
+      </svg>
+    </div>
+  </section>
+  <section class="subheading-container">
+  <div class="subheading-inner" data-aos="zoom-in" data-aos-duration="1500">
+    <h3>The world’s best companies rely on Gotech to make better architectures and safeguard their future.</h3>
+
+    <!-- Placeholder for logos -->
+   <div class="logo-marquee">
+  <div class="logo-track">
+    <!-- Logos repeated twice for seamless loop -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="Amazon" />
+    <img src="https://s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2020/01/GD_LOCKUP_RGB_BLACK.png" alt="GD" />
+    <img src="https://www.kindpng.com/picc/m/177-1773403_facebook-logo-words-png-transparent-png.png" alt="Facebook" />
+    <img src="https://assets.nextleap.app/images/Blinkit-7e8b52f3-cb96-48a8-a10b-405cea52b1d1.png" alt="Blinkit" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Tata_Motors_Logo.svg/1328px-Tata_Motors_Logo.svg.png" alt="Tata" />
+    <img src="https://brandlogos.net/wp-content/uploads/2025/02/flipkart-logo_brandlogos.net_cfwyw.png" alt="Flipkart" />
+    <img src="https://cdn.freebiesupply.com/images/large/2x/nestle-logo-black-and-white.png" alt="Nestle" />
+    <img src="https://www.mahindra.com/sites/default/files/2025-01/logistics.png" alt="Mahindra" />
+
+    <!-- Repeat for looping -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="Amazon" />
+    <img src="https://s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2020/01/GD_LOCKUP_RGB_BLACK.png" alt="GD" />
+    <img src="https://www.kindpng.com/picc/m/177-1773403_facebook-logo-words-png-transparent-png.png" alt="Facebook" />
+    <img src="https://assets.nextleap.app/images/Blinkit-7e8b52f3-cb96-48a8-a10b-405cea52b1d1.png" alt="Blinkit" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" />
+    <img src="https://pluspng.com/logo-img/ta150tat74a6-tata-logo-tata-motors-logo-png-vector-free-vector-design-cdr-ai-eps.png" alt="Tata" />
+    <img src="https://img.favpng.com/15/4/21/logo-flipkart-vector-graphics-brand-snapdeal-png-favpng-pzW3EbykEGRYVydms2wJMKMeQ.jpg" alt="Flipkart" />
+    <img src="https://cdn.freebiesupply.com/images/large/2x/nestle-logo-black-and-white.png" alt="Nestle" />
+    <img src="https://www.mahindra.com/sites/default/files/2025-01/logistics.png" alt="Mahindra" />
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="Amazon" />
+    <img src="https://s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2020/01/GD_LOCKUP_RGB_BLACK.png" alt="GD" />
+    <img src="https://www.kindpng.com/picc/m/177-1773403_facebook-logo-words-png-transparent-png.png" alt="Facebook" />
+    <img src="https://assets.nextleap.app/images/Blinkit-7e8b52f3-cb96-48a8-a10b-405cea52b1d1.png" alt="Blinkit" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" />
+    <img src="https://pluspng.com/logo-img/ta150tat74a6-tata-logo-tata-motors-logo-png-vector-free-vector-design-cdr-ai-eps.png" alt="Tata" />
+    <img src="https://img.favpng.com/15/4/21/logo-flipkart-vector-graphics-brand-snapdeal-png-favpng-pzW3EbykEGRYVydms2wJMKMeQ.jpg" alt="Flipkart" />
+    <img src="https://cdn.freebiesupply.com/images/large/2x/nestle-logo-black-and-white.png" alt="Nestle" />
+    <img src="https://www.mahindra.com/sites/default/files/2025-01/logistics.png" alt="Mahindra" />
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="Amazon" />
+    <img src="https://s3.eu-west-2.amazonaws.com/fifteen-uploads/uploads/2020/01/GD_LOCKUP_RGB_BLACK.png" alt="GD" />
+    <img src="https://www.kindpng.com/picc/m/177-1773403_facebook-logo-words-png-transparent-png.png" alt="Facebook" />
+    <img src="https://assets.nextleap.app/images/Blinkit-7e8b52f3-cb96-48a8-a10b-405cea52b1d1.png" alt="Blinkit" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" />
+    <img src="https://pluspng.com/logo-img/ta150tat74a6-tata-logo-tata-motors-logo-png-vector-free-vector-design-cdr-ai-eps.png" alt="Tata" />
+    <img src="https://img.favpng.com/15/4/21/logo-flipkart-vector-graphics-brand-snapdeal-png-favpng-pzW3EbykEGRYVydms2wJMKMeQ.jpg" alt="Flipkart" />
+    <img src="https://cdn.freebiesupply.com/images/large/2x/nestle-logo-black-and-white.png" alt="Nestle" />
+    <img src="https://www.mahindra.com/sites/default/files/2025-01/logistics.png" alt="Mahindra" />
+    
+  </div>
+</div>
+  </div>
+</section>
+<section class="services-section5">
+  <div class="services-container">
+    <h2 class="services-heading"  data-aos="zoom-out" data-aos-duration="1500">One platform, endless possibilities</h2>
+    <button class="services-btn" data-aos="zoom-out" data-aos-duration="1500">Our Services</button>
+
+    <div class="services-layout-wrapper">
+  <div class="services-left-image" data-aos="zoom-out-right" data-aos-duration="1500">
+    <img src="https://cdn.pixabay.com/photo/2024/05/22/11/58/flat-8780518_640.png" alt="Service Visual" />
+  </div>
+
+<div class="services-marquee-container">
+  <div class="services-marquee-track">
+    <!-- Repeat cards twice for smooth loop -->
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/construction-worker.png" alt="Hire Workers">
+    <h3>Hire Skilled Workers</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/job.png" alt="Job Opportunities">
+    <h3>Job Opportunities</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/home-page.png" alt="Residential">
+    <h3>Residential Projects</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/skyscrapers.png" alt="Commercial">
+    <h3>Commercial Builds</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/design.png" alt="Planning">
+    <h3>Custom Planning</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Consulting">
+   <h3>Consulting Service</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/4221/4221435.png" alt="Interior Designing">
+  <h3>Interior Designing</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3489/3489301.png" alt="Renovation">
+    <h3>Renovation</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3105/3105791.png" alt="Structural Engineering">
+    <h3>Structural Engineering</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="Sustainable Building">
+    <h3>Sustainable Building</h3>
+  </div>
+
+    <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/construction-worker.png" alt="Hire Workers">
+    <h3>Hire Skilled Workers</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/job.png" alt="Job Opportunities">
+    <h3>Job Opportunities</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/home-page.png" alt="Residential">
+    <h3>Residential Projects</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/skyscrapers.png" alt="Commercial">
+    <h3>Commercial Builds</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://img.icons8.com/ios/50/000000/design.png" alt="Planning">
+    <h3>Custom Planning</h3>
+  </div>
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Consulting">
+   <h3>Consulting Service</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/4221/4221435.png" alt="Interior Designing">
+  <h3>Interior Designing</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3489/3489301.png" alt="Renovation">
+    <h3>Renovation</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/3105/3105791.png" alt="Structural Engineering">
+    <h3>Structural Engineering</h3>
+  </div>
+
+  <div class="benefit-box2">
+    <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="Sustainable Building">
+    <h3>Sustainable Building</h3>
+  </div>
+
+
+  
+
+  </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="hero3">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="zoom-out-down" data-aos-duration="1500">
+        <h1>
+          <span>Apply for Job</span>
+          
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate eveniet fugit quo ducimus voluptates expedita, similique vitae magnam. Deserunt!
+        </p>
+        <button class="btn">Apply Now</button>
+      </div>
+      <img src="https://cdn.pixabay.com/photo/2019/07/15/09/45/run-4339005_640.png" alt="Construction Illustration" class="hero-image2" data-aos="zoom-out-left" data-aos-duration="1500">
+    </div>
+    </section>
+
+
+
+<section class="services-section2">
+  <div class="services-container">
+
+    <div class="worker-boxes" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/15/29/75/82/240_F_1529758279_YqNjwMq5BqztJlDCiWXDxivAjKONf5Uk.jpg" class="worker-image" alt="Electrician">
+        <h3>Electrician <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/14/96/24/56/240_F_1496245649_sYAF9P10XCyHEZtSjVcLFr2yQS4ou5E3.jpg" class="worker-image" alt="Painter">
+        <h3>Painter <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/14/70/96/70/240_F_1470967012_O980wI3XkPSCUPx6mdw3tr88K3Otug7Y.jpg" class="worker-image" alt="Plumber">
+        <h3>Plumber <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src=" https://t4.ftcdn.net/jpg/03/43/88/07/240_F_343880759_Ms1ZkBiBmSlVvmBxCbNxV1OwwIfMZaVm.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/15/30/33/45/240_F_1530334515_KXdfl73TzerWBCd9X8tiWetmoS1ESFXP.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/04/40/46/50/240_F_440465082_YxO6tgAyrxYEAdovFEkGNEFRwVCMx7lL.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/13/05/11/92/240_F_1305119248_tEwQMiNOFXXRO4vPwjPU8uh6UB4yqjsO.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/14/88/15/02/240_F_1488150237_jseHv2V1qc0mlUQUDHpmkEoBftO7t6Hs.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/14/56/39/97/240_F_1456399798_Cht0CmCqKk9ciocXZd0fZAACqprninLa.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://cdn.pixabay.com/photo/2019/09/27/03/40/labour-day-4507469_1280.png" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/11/76/45/99/240_F_1176459973_kBQa603YgCZZMWHW7hbCt1Vpa1b6Nzzj.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMI-rHLuIxE4_jftAIiXCkXfoZSZY3eVJcscT06MGUTJC1XpjL5LmaDVU&s" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/06/71/51/43/240_F_671514384_BWekf82AZpuatRQ4ZV2GmhaahOkmA0x9.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/04/50/47/71/240_F_450477186_qlmI2ZW8veS55n0GcyOly2s7dgpdcc3Z.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/11/34/25/97/240_F_1134259789_IKUZODwzATx4g8cZYqglJSzJVUtEzSAa.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+
+      </div>
+  </div>
+</section>
+
+  <section class="teamwork-wrapper">
+
+    <!-- ✅ Flipped right wave (only on large screens) -->
+    <div class="wave-bg">
+      <svg viewBox="0 0 300 800" preserveAspectRatio="none">
+        <path d="
+          M0,800 
+          C30,720 60,680 40,600 
+          C20,520 80,440 60,360 
+          C40,280 100,200 80,120 
+          C60,40 120,0 120,0 
+          L300,0 
+          L300,800 
+          Z" 
+          fill="#d9efff"/>
+      </svg>
+    </div>
+
+    <!-- Text Content -->
+    <div class="teamwork-text" data-aos="zoom-in-left" data-aos-duration="1500">
+      <h1>Teamwork<br>Design</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button>MORE INFO</button>
+    </div>
+
+    <!-- Right Illustration -->
+    <div class="teamwork-graphic" data-aos="zoom-out-right" data-aos-duration="1500">
+      <img src="https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png" alt="Teamwork Illustration">
+    </div>
+
+  </section>
+
+
+    
+<section class="hero2">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="zoom-in-right" data-aos-duration="1500">
+        <h1>
+          <span>Hire a Worker</span>
+          
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate eveniet fugit quo ducimus voluptates expedita, similique vitae magnam. Deserunt!
+        </p>
+        <button class="btn">hire Now</button>
+      </div>
+      <img src="https://cdn.pixabay.com/photo/2012/04/16/11/39/plumber-35611_640.png" alt="Construction Illustration" class="hero-image2" data-aos="zoom-out-left" data-aos-duration="1500">
+    </div>
+
+
+
+<section class="services-section">
+  <div class="services-container">
+
+    <div class="worker-boxes" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+      <div class="worker-card" >
+        <img src="https://cdn.pixabay.com/photo/2025/01/23/13/05/ai-generated-9354637_640.png" class="worker-image" alt="Electrician">
+        <h3>Electrician <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/15/34/60/93/240_F_1534609380_LzXxTnNnVkLgWv5675uc40Wu6Z9hNm0n.jpg" class="worker-image" alt="Painter">
+        <h3>Painter <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://cdn.pixabay.com/photo/2025/01/23/13/12/ai-generated-9354644_640.png" class="worker-image" alt="Plumber">
+        <h3>Plumber <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/11/97/62/31/240_F_1197623199_sG9eaNA0rp2XweGfZKdXK5hgERZhdX2Y.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/06/40/30/41/240_F_640304111_R7mZiKrIYag4a3M8ay1UY596orRQPt5r.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/14/60/42/93/240_F_1460429345_s21ksfd89NPDKf0QGq6Em4DeUwg70D7l.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/02/64/95/98/240_F_264959827_4tQcvaXWRMz4F96t22Yz8EwPSC4Skize.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/03/07/44/83/240_F_307448331_79SVHA3Fcr7CKMzdctlMsIQVKUvu68y3.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t4.ftcdn.net/jpg/15/30/33/47/240_F_1530334737_gBGG4FyP0GrfvB4TrDOsBksF8bhMTdXz.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://cdn.pixabay.com/photo/2019/09/27/03/40/labour-day-4507469_1280.png" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/05/43/66/20/240_F_543662026_eOsqcoMa0BELMaC1BRluLVeFI287wAqz.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/14/24/39/18/240_F_1424391898_OSDPqZCA6ETTTdSwfVY03UtKJHt7fd2m.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      <div class="worker-card">
+        <img src="https://t3.ftcdn.net/jpg/01/05/49/28/240_F_105492884_A5nNHt0TodVtiDoo4Jmw5ZWObjcKtTct.jpg" class="worker-image" alt="Mason">
+        <h3>Mason <span class="worker-tag">Per-time</span></h3>
+        <div class="worker-info">
+          <div><i>📍</i>Downtown Site</div>
+          <div><i>⏳</i>5+ years</div>
+          <div><i>💰</i>$65,000 - $75,000</div>
+        </div>
+        <p class="worker-description">Lead construction teams and oversee daily operations on commercial projects.</p>
+        <ul class="worker-skills">
+          <li>Construction management experience</li>
+          <li>Safety certification</li>
+          <li>Team leadership skills</li>
+        </ul>
+        <button class="worker-btn">Hire Now</button>
+      </div>
+
+      </div>
+  </div>
+  </section>
+  </section>
+
+
+  <section class="teamwork-wrapper">
+
+    <!-- ✅ Flipped right wave (only on large screens) -->
+    <div class="wave-bg">
+      <svg viewBox="0 0 200 400" preserveAspectRatio="none">
+        <path d="
+          M0,800 
+          C30,720 60,680 40,600 
+          C20,520 80,440 60,360 
+          C40,280 100,200 80,120 
+          C60,40 120,0 120,0 
+          L300,0 
+          L300,800 
+          Z" 
+          fill="goldenrod"/>
+      </svg>
+    </div>
+
+    <!-- Text Content -->
+    <div class="teamwork-text" data-aos="zoom-in-right" data-aos-duration="1500">
+      <h1>Why?<br>Choose Us</h1>
+      <p>GOTECH gives you multiple reasons why to choose them;</p>
+      <button>MORE INFO</button>
+    </div>
+
+    <!-- Right Illustration -->
+    <div class="teamwork-graphic">
+      <img src="https://cdn.pixabay.com/photo/2021/12/13/06/11/decide-6867641_640.png" alt="Teamwork Illustration" data-aos="fade-up"
+     data-aos-duration="3000">
+    </div>
+
+    
+
+
+  </section>
+  <!-- ✅ GOTECH Benefits Section -->
+<div class="gotech-benefits">
+  <div class="benefit-box" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img src="https://img.icons8.com/ios/50/000000/money.png" alt="Affordable">
+    <h3>Affordable Rates</h3>
+    <p>We provide top-tier construction at a price that fits your budget.</p>
+  </div>
+  <div class="benefit-box" data-aos="zoom-out-left" data-aos-duration="1000">
+    <img src="https://img.icons8.com/ios/50/000000/construction-worker.png" alt="Hire Workers">
+    <h3>Hire Skilled Workers</h3>
+    <p>Easily hire verified, experienced laborers and contractors.</p>
+  </div>
+  <div class="benefit-box" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img src="https://img.icons8.com/ios/50/000000/job.png" alt="Job Opportunities">
+    <h3>Job Opportunities</h3>
+    <p>We’re always hiring! Apply online and join our growing team.</p>
+  </div>
+  <div class="benefit-box" data-aos="zoom-out-left" data-aos-duration="1000">
+    <img src="https://img.icons8.com/ios/50/000000/home-page.png" alt="Residential">
+    <h3>Residential Projects</h3>
+    <p>From foundation to finish — we handle your dream home with care.</p>
+  </div>
+  <div class="benefit-box" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img src="https://img.icons8.com/ios/50/000000/skyscrapers.png" alt="Commercial">
+    <h3>Commercial Builds</h3>
+    <p>We construct offices, malls, and more with modern standards.</p>
+  </div>
+  <div class="benefit-box" data-aos="zoom-out-left" data-aos-duration="1000">
+    <img src="https://img.icons8.com/ios/50/000000/design.png" alt="Planning">
+    <h3>Custom Planning</h3>
+    <p>Design your project exactly how you envision it — we’ll bring it to life.</p>
+  </div>
+  <div class="benefit-box" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img src="https://img.icons8.com/ios/50/000000/brickwall.png" alt="Materials">
+    <h3>Quality Materials</h3>
+    <p>We only use trusted brands and certified construction materials.</p>
+  </div>
+  <div class="benefit-box" data-aos="zoom-out-left" data-aos-duration="1000">
+    <img src="https://img.icons8.com/ios/50/000000/clock.png" alt="Timely">
+    <h3>On-Time Delivery</h3>
+    <p>We meet your deadlines — no excuses, no delays.</p>
+  </div>
+  <div class="benefit-box" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img src="https://img.icons8.com/ios/50/000000/safety-collection-place.png" alt="Safety">
+    <h3>Worker Safety</h3>
+    <p>We follow strict safety protocols to protect every person on site.</p>
+  </div>
+  <div class="benefit-box"data-aos="zoom-out-left" data-aos-duration="1000">
+    <img src="https://img.icons8.com/ios/50/000000/chat.png" alt="Support">
+    <h3>24/7 Support</h3>
+    <p>Get in touch with us anytime — we’re always here to help.</p>
+  </div>
+</div>
+
+<section class="map">
+<div class="gotech-map-wrapper" data-aos="zoom-in-down" data-aos-duration="2500">
+  <h2>Find Us Here</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!4v1753982011331!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQzZvdnZ6dUFF!2m2!1d28.61310203629252!2d77.22625265620012!3f101.89528752728255!4f16.203917771643134!5f0.4000000000000002"      
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+</section>
+
+
+<footer class="gotech-footer">
+  <div class="footer-heading">
+    <h2>Let’s Build a Difference</h2>
+  </div>
+
+  <div class="footer-content">
+    <!-- About Us -->
+    <div class="footer-column">
+      <h3><i class="fas fa-shield-alt"></i> About Us</h3>
+      <p>
+        At GO-TECH, we're committed to building the future of secure and intelligent digital experiences.
+        From startups to enterprises, we offer smart, reliable, and secure tech solutions. Let’s build something remarkable, together.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h3><i class="fas fa-link"></i> Quick Links</h3>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-user-tie"></i> Hire Developers</li>
+        <li><i class="fas fa-code"></i> Services</li>
+        <li><i class="fas fa-envelope"></i> Contact</li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-column">
+      <h3><i class="fas fa-phone"></i> Contact</h3>
+      <p><i class="fas fa-envelope"></i> manav222chandila@gmail.com</p>
+      <p><i class="fas fa-phone-alt"></i> +91-7428641842</p>
+      <p><i class="fas fa-map-marker-alt"></i> gr-noida(NCR), India</p>
+    </div>
+
+  
+
+    <!-- Optional Image -->
+    <div class="footer-column footer-image">
+      <img src="https://cdn.pixabay.com/photo/2018/08/01/19/26/technician-3577933_640.png" alt="GOTECH Team">
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="footer-social">
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+
+
+
+<script>
+  window.onload = function () {
+    alert("👷‍♂️ Hi, I'm Manav — a 17-year-old Class 12 student. I created this 🏗️ construction website prototype just to showcase the design and layout I can build 💻. Making it fully functional would take around 10,000+ lines of code ⚙️, which feels like a waste of time since no one's actually going to use it 😅. So yeah, none of the buttons will work 🚫 — it's just for show! 🎨✨");
+  };
+</script>
+
+
+
+  <!-- JavaScript -->
+  <script src="background.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
