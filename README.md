@@ -1,3 +1,9 @@
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
 # 🏗️ Construction Website Prototype
 
 👋 Hi, I'm **Manav**, a 17-year-old Class 12 student and a frontend developer.
@@ -29,3 +35,4 @@ None of the buttons or links will work — making the full functionality would r
 1. Clone or download the repository
 2. Open `index.html` in your browser
 3. You'll see an alert when the page loads:
+
